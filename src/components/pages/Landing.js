@@ -78,11 +78,11 @@ const Landing = ({
         </div>
       </section>
       <section className='bg-pink-500 pt-20'>
-        <div className='container md:w/5-6 mx-auto grid grid-flow-row md:grid-cols-2 md:mt-12 pb-8'>
+        <div className='container md:w/5-6 mx-auto grid grid-flow-row md:grid-cols-2 md:mt-12 pb-12'>
           <div className='relative mb-12 md:overflow-visible'>
             <div className='absolute w-1/2 h-64 lg:h-96 top-4 rounded-full bg-[#a2d918] filter blur-xl opacity-70 animate-balls' />
             <div className='absolute w-1/2 h-64 lg:h-96 bottom-4 right-[12%] rounded-full bg-yellow-300 filter blur-xl opacity-50 animate-balls animation-delay-2000' />
-            <div className='absolute w-1/2 h-64 lg:h-96 bottom-[-35%] left-[25%] rounded-full bg-blue-300 filter blur-xl opacity-50 animate-balls animation-delay-4000' />
+            <div className='absolute w-1/2 h-64 lg:h-96 bottom-[-30%] left-[25%] rounded-full bg-blue-300 filter blur-xl opacity-50 animate-balls animation-delay-4000' />
             <img
               src={second}
               className='opacity-1 relative w-1/2 mx-auto rounded-full border-4 border-white shadow-lg'

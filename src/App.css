@@ -715,8 +715,8 @@ video {
 .top-4 {
 	top: 1rem;
 }
-.bottom-\[-35\%\] {
-	bottom: -35%;
+.bottom-\[-30\%\] {
+	bottom: -30%;
 }
 .left-\[25\%\] {
 	left: 25%;
@@ -1045,8 +1045,8 @@ video {
 .pt-20 {
 	padding-top: 5rem;
 }
-.pb-8 {
-	padding-bottom: 2rem;
+.pb-12 {
+	padding-bottom: 3rem;
 }
 .text-left {
 	text-align: left;
