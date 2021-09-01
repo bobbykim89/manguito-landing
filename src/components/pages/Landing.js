@@ -85,7 +85,7 @@ const Landing = ({
             <div className='absolute w-1/2 h-64 lg:h-96 bottom-[-25%] left-[25%] rounded-full bg-blue-300 filter blur-xl opacity-50 animate-balls animation-delay-4000' />
             <img
               src={second}
-              className='opacity-1 relative w-1/2 mx-auto rounded-full border-4 border-white shadow-md'
+              className='opacity-1 relative w-1/2 mx-auto rounded-full border-4 border-white shadow-lg'
               alt='Manguito on the wheel'
             />
           </div>

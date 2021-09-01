@@ -10,7 +10,7 @@ const LandingGrid = () => {
             Take a look at some pictures!
           </span>
         </h1>
-        <div className='row-start-2 col-start-2 md:col-start-1 md:col-span-2 self-center md:pr-8 text-right font-marker text-2xl md:text-4xl'>
+        <div className='row-start-2 col-start-2 md:col-start-1 md:col-span-2 self-center md:pr-8 text-right font-marker text-2xl md:text-4xl transition ease-in duration-150 animate-bounce'>
           Flip me over!!{' '}
           <img
             src={arrow}
