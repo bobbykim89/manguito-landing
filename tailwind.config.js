@@ -22,11 +22,12 @@ module.exports = {
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
+        marker: ["'Permanent Marker'", 'cursive'],
       },
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/aspect-ratio')],
 };
