@@ -18,11 +18,14 @@ const Landing = ({
         <div className='grid grid-flow-row md:grid-cols-5 my-8  font-inter'>
           <div className='col-span-2 order-2 md:order-1'>
             <div className='mx-auto my-12 xl:mt-40 px-4 items-center text-center text-black'>
-              <div className='inline-block text-center md:text-left tracking-wider mx-1 md:ml-12 2xl:ml-10'>
-                <div className='text-left'>
-                  <span className=' ml-2 text-lg lg:text-3xl font-semibold '>
-                    Welcome to
-                  </span>
+              <div className='inline-block text-center md:text-left mx-1 md:ml-12 2xl:ml-10'>
+                <div className='text-center md:text-left'>
+                  <div className='text-left'>
+                    <span className='ml-12 md:ml-2 text-lg lg:text-3xl font-semibold'>
+                      Welcome to
+                    </span>
+                  </div>
+
                   <h1 className='text-4xl md:text-5xl 2xl:text-7xl text-pink-500 font-bold mb-8'>
                     {landingHeader}
                   </h1>
