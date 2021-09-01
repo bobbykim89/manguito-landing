@@ -715,8 +715,8 @@ video {
 .top-4 {
 	top: 1rem;
 }
-.bottom-\[-25\%\] {
-	bottom: -25%;
+.bottom-\[-35\%\] {
+	bottom: -35%;
 }
 .left-\[25\%\] {
 	left: 25%;
@@ -880,7 +880,7 @@ video {
 	}
 }
 .animate-balls {
-	animation: balls 7s infinite;
+	animation: balls 5s infinite;
 }
 .cursor-pointer {
 	cursor: pointer;
@@ -1086,6 +1086,10 @@ video {
 	font-size: 1.125rem;
 	line-height: 1.75rem;
 }
+.text-3xl {
+	font-size: 1.875rem;
+	line-height: 2.25rem;
+}
 .font-bold {
 	font-weight: 700;
 }
@@ -1112,6 +1116,9 @@ video {
 }
 .opacity-50 {
 	opacity: 0.5;
+}
+.opacity-70 {
+	opacity: 0.7;
 }
 .mix-blend-multiply {
 	mix-blend-mode: multiply;

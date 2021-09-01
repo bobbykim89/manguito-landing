@@ -72,7 +72,7 @@ const Landing = ({
           >
             <polygon
               className='text-pink-500 fill-current'
-              points='2560 0 2560 100 0 100'
+              points='0 0 2560 100 0 100'
             ></polygon>
           </svg>
         </div>
@@ -80,9 +80,9 @@ const Landing = ({
       <section className='bg-pink-500 pt-20'>
         <div className='container md:w/5-6 mx-auto grid grid-flow-row md:grid-cols-2 md:mt-12 pb-8'>
           <div className='relative mb-12 md:overflow-visible'>
-            <div className='absolute w-1/2 h-64 lg:h-96 top-4 rounded-full bg-[#a2d918] filter blur-xl opacity-50 animate-balls' />
+            <div className='absolute w-1/2 h-64 lg:h-96 top-4 rounded-full bg-[#a2d918] filter blur-xl opacity-70 animate-balls' />
             <div className='absolute w-1/2 h-64 lg:h-96 bottom-4 right-[12%] rounded-full bg-yellow-300 filter blur-xl opacity-50 animate-balls animation-delay-2000' />
-            <div className='absolute w-1/2 h-64 lg:h-96 bottom-[-25%] left-[25%] rounded-full bg-blue-300 filter blur-xl opacity-50 animate-balls animation-delay-4000' />
+            <div className='absolute w-1/2 h-64 lg:h-96 bottom-[-35%] left-[25%] rounded-full bg-blue-300 filter blur-xl opacity-50 animate-balls animation-delay-4000' />
             <img
               src={second}
               className='opacity-1 relative w-1/2 mx-auto rounded-full border-4 border-white shadow-lg'
@@ -91,7 +91,7 @@ const Landing = ({
           </div>
           <div className='relative text-white font-inter w-full lg:pt-8 px-4 md:w-4/5 md:mx-auto'>
             <div className='mb-8'>
-              <h2 className='text-center text-2xl font-bold md:text-4xl lg:text-5xl mb-6'>
+              <h2 className='text-center text-3xl font-bold md:text-4xl lg:text-5xl mb-6'>
                 {infoTitle}
               </h2>
               <p className='text-center md:text-lg font-semibold'>{infoText}</p>
@@ -113,7 +113,7 @@ const Landing = ({
           >
             <polygon
               className='text-white fill-current'
-              points='0 0 2560 100 0 100'
+              points='2560 0 2560 100 0 100'
             ></polygon>
           </svg>
         </div>

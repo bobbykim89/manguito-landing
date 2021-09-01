@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        balls: 'balls 7s infinite',
+        balls: 'balls 5s infinite',
       },
       keyframes: {
         balls: {
